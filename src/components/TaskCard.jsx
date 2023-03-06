@@ -7,7 +7,7 @@ function TaskCard({task}) {
 
   return (
  
-     <div >
+     <div className="bg-gray-800 text-white" >
       <h6>{task.title}</h6>
       <p>{task.description} </p>
 

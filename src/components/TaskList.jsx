@@ -12,7 +12,7 @@ const  TaskList = () => {
 
 
   return (
-    <div>
+    <div className="grid grid-cols-4">
       <h1>
        
         {tasks.map((task) => (
