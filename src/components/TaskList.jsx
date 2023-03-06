@@ -12,13 +12,11 @@ const  TaskList = () => {
 
 
   return (
-    <div className="grid grid-cols-4">
-      <h1>
-       
+    <div className="grid grid-cols-4 gap-2">
         {tasks.map((task) => (
-            <TaskCard task= {task} />
+            <TaskCard key={task.id} task= {task} />
         ))}
-      </h1>
+      
     </div>
   );
 };
